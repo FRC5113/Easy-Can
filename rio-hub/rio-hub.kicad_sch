@@ -1,0 +1,2864 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "888ea236-0a1b-4051-b4d2-08d520fb1e2a")
+	(paper "A4")
+	(title_block
+		(title "CAN Hub for Rio")
+		(date "2025-09-02")
+		(rev "1")
+	)
+	(lib_symbols
+		(symbol "Connector:RJ45"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -5.08 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "RJ45"
+				(at 2.54 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "8P8C RJ socket connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "8P8C* RJ31* RJ32* RJ33* RJ34* RJ35* RJ41* RJ45* RJ49* RJ61*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RJ45_0_1"
+				(polyline
+					(pts
+						(xy -6.35 1.905) (xy -5.08 1.905) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 0.635) (xy -5.08 0.635) (xy -5.08 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -0.635) (xy -5.08 -0.635) (xy -5.08 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.905) (xy -5.08 -1.905) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -3.175) (xy -5.08 -3.175) (xy -5.08 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -4.445) (xy -6.35 6.985) (xy 3.81 6.985) (xy 3.81 4.445) (xy 5.08 4.445) (xy 5.08 3.175)
+						(xy 6.35 3.175) (xy 6.35 -0.635) (xy 5.08 -0.635) (xy 5.08 -1.905) (xy 3.81 -1.905) (xy 3.81 -4.445)
+						(xy -6.35 -4.445) (xy -6.35 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.715) (xy -6.35 5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 4.445) (xy -6.35 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.175) (xy -6.35 3.175) (xy -6.35 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 12.7)
+					(end -7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RJ45_1_1"
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "New_Library:Canbus"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Can"
+				(at 9.906 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Canbus_1_1"
+				(pin output line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "H"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push_DPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Push_DPDT"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Momentary Switch, dual pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch dual-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_DPDT_0_0"
+				(circle
+					(center -2.032 5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.032 -5.08)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_DPDT_0_1"
+				(polyline
+					(pts
+						(xy -1.524 5.334) (xy 2.3368 7.0612)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -4.826) (xy 2.3368 -3.0988)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.874) (xy 0 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 7.62)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Push_DPDT_1_1"
+				(rectangle
+					(start -3.175 8.89)
+					(end 3.175 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 186.055 107.315)
+		(uuid "0bf68f58-3109-4419-be48-8e63af96ca27")
+	)
+	(no_connect
+		(at 158.115 107.315)
+		(uuid "22827576-48bc-4fde-97bc-01494d0f4dc4")
+	)
+	(no_connect
+		(at 188.595 107.315)
+		(uuid "29e7db5c-b159-46b1-af59-1d4923050096")
+	)
+	(no_connect
+		(at 97.155 107.315)
+		(uuid "2c981ced-0bdd-4681-b7e2-0b0c1d25dc2a")
+	)
+	(no_connect
+		(at 92.075 107.315)
+		(uuid "38e02a07-c0c3-43d7-9467-62b92a831820")
+	)
+	(no_connect
+		(at 180.975 107.315)
+		(uuid "399d9a1b-e4b1-4b4f-9ede-5e3650a57e7e")
+	)
+	(no_connect
+		(at 150.495 107.315)
+		(uuid "3c2bc141-db02-4474-9ac9-ebe61072dc4b")
+	)
+	(no_connect
+		(at 125.095 107.315)
+		(uuid "42f574c8-ef66-4103-891a-99cc635cc73f")
+	)
+	(no_connect
+		(at 155.575 107.315)
+		(uuid "6df8337b-2d74-4da2-a6cb-7511ed559e33")
+	)
+	(no_connect
+		(at 211.455 107.315)
+		(uuid "6fb425df-c533-41c9-99ca-6bc6aea03828")
+	)
+	(no_connect
+		(at 127.635 107.315)
+		(uuid "750157d3-651f-4dee-8bcb-7bb47bc28913")
+	)
+	(no_connect
+		(at 219.075 107.315)
+		(uuid "782af3d6-a887-499b-9ff4-c4bcb42c8de9")
+	)
+	(no_connect
+		(at 94.615 107.315)
+		(uuid "8c745ff8-d53c-454f-9dc6-8020b5cbf5af")
+	)
+	(no_connect
+		(at 89.535 107.315)
+		(uuid "91b8294d-1e22-4a2c-9276-2544c94fac09")
+	)
+	(no_connect
+		(at 122.555 107.315)
+		(uuid "a9161ac7-2194-41ee-88b1-d98dcbb21f0f")
+	)
+	(no_connect
+		(at 213.995 107.315)
+		(uuid "ad792fa0-08d1-4f5c-8d1c-e6d50ce9ff5b")
+	)
+	(no_connect
+		(at 153.035 107.315)
+		(uuid "cac9352e-277e-4425-9de6-cb5fe5051131")
+	)
+	(no_connect
+		(at 183.515 107.315)
+		(uuid "db07fd5f-0ba8-4f6d-a689-bc055637ae15")
+	)
+	(no_connect
+		(at 216.535 107.315)
+		(uuid "e9e44346-0e1d-4b30-84a9-8547819bc98c")
+	)
+	(no_connect
+		(at 120.015 107.315)
+		(uuid "f4b64ddb-5813-4592-bc30-6ae23d137f7b")
+	)
+	(wire
+		(pts
+			(xy 113.665 95.885) (xy 113.665 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06034fb7-15b5-42be-9d76-48924bee76d1")
+	)
+	(wire
+		(pts
+			(xy 203.835 106.045) (xy 205.105 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12f7b4d9-919c-4c14-9c9d-00fbf96953fc")
+	)
+	(wire
+		(pts
+			(xy 121.285 88.265) (xy 121.285 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1345d522-3f15-4487-a7f0-764c3ed29411")
+	)
+	(wire
+		(pts
+			(xy 182.245 88.265) (xy 182.245 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "137aa5b2-a194-4091-a43a-3138e933e94c")
+	)
+	(wire
+		(pts
+			(xy 142.875 90.805) (xy 147.955 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cacb735-d93f-4086-8670-83c83be9c2e9")
+	)
+	(wire
+		(pts
+			(xy 83.185 107.315) (xy 84.455 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f00c8b7-0f5b-4f99-bef5-30d3ec195c46")
+	)
+	(wire
+		(pts
+			(xy 174.625 106.045) (xy 174.625 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c1d14f-f156-45ab-bc41-42bb225b6886")
+	)
+	(wire
+		(pts
+			(xy 224.155 103.505) (xy 226.695 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274f9334-ffc7-424b-929a-80f37bf0c657")
+	)
+	(wire
+		(pts
+			(xy 116.205 88.265) (xy 121.285 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277cef37-95c9-4f44-9c04-d443c8193285")
+	)
+	(wire
+		(pts
+			(xy 160.655 93.345) (xy 160.655 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2878dd4a-0b72-4ea3-914e-50350d8e62c8")
+	)
+	(wire
+		(pts
+			(xy 130.175 93.345) (xy 130.175 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f602f5-43d3-4fbb-b2cc-8778e71573d4")
+	)
+	(wire
+		(pts
+			(xy 203.835 100.965) (xy 206.375 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2b2893-1231-4ec8-96ac-e9ab1c6666e6")
+	)
+	(wire
+		(pts
+			(xy 144.145 95.885) (xy 144.145 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a7ad7b3-37f7-4c6f-af0d-782df3f9c476")
+	)
+	(wire
+		(pts
+			(xy 144.145 97.155) (xy 146.685 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d20c9b7-a29d-41df-836e-d73d2ae5d070")
+	)
+	(wire
+		(pts
+			(xy 207.645 88.265) (xy 212.725 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e72542-193a-41d5-bf4d-9a5f04d74456")
+	)
+	(wire
+		(pts
+			(xy 173.355 106.045) (xy 174.625 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a66a8f1-4237-4e6b-bae6-d9811ad3ed81")
+	)
+	(wire
+		(pts
+			(xy 83.185 100.965) (xy 83.185 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4086b91d-6fa4-4297-8e3b-31b3e80d1892")
+	)
+	(wire
+		(pts
+			(xy 146.685 88.265) (xy 151.765 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409147fa-2782-4fa9-8834-5034e4ddaa62")
+	)
+	(wire
+		(pts
+			(xy 193.675 93.345) (xy 191.135 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422d07bb-bbfa-4d7d-89c2-b5adf831b122")
+	)
+	(wire
+		(pts
+			(xy 208.915 90.805) (xy 208.915 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4619452c-791d-431c-b898-ff6c128b15a1")
+	)
+	(wire
+		(pts
+			(xy 207.645 97.155) (xy 207.645 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47005c04-e5a7-453b-a206-aeac44b9e5ff")
+	)
+	(wire
+		(pts
+			(xy 212.725 88.265) (xy 212.725 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "481fded3-f89f-419a-ac26-91e17e0b05ee")
+	)
+	(wire
+		(pts
+			(xy 112.395 106.045) (xy 113.665 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b780c7-c2e1-476d-9580-fdff389c68ee")
+	)
+	(wire
+		(pts
+			(xy 219.075 103.505) (xy 221.615 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51348e75-7b02-4fb8-88bc-1b97be53d4b0")
+	)
+	(wire
+		(pts
+			(xy 205.105 97.155) (xy 207.645 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531b8814-14ee-47c8-a22e-bbffc694ae8a")
+	)
+	(wire
+		(pts
+			(xy 174.625 97.155) (xy 177.165 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f4984f-6377-42b4-ad1d-b94ba614376b")
+	)
+	(wire
+		(pts
+			(xy 177.165 97.155) (xy 177.165 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "568ff925-a7f1-4d56-9245-250eb4abebaa")
+	)
+	(wire
+		(pts
+			(xy 102.235 107.315) (xy 102.235 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c51adef-e1a2-4422-a762-21f5a063766e")
+	)
+	(wire
+		(pts
+			(xy 142.875 106.045) (xy 144.145 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60be0ba7-dea1-464e-8fce-6a276c7b8fb4")
+	)
+	(wire
+		(pts
+			(xy 175.895 100.965) (xy 175.895 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3b2010-7c66-41e6-ad45-74e193084746")
+	)
+	(wire
+		(pts
+			(xy 112.395 90.805) (xy 117.475 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7257c832-3712-4cf7-ad7e-437642858c15")
+	)
+	(wire
+		(pts
+			(xy 146.685 97.155) (xy 146.685 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76304d7e-9c13-4fb9-a59b-0242e0c432ab")
+	)
+	(wire
+		(pts
+			(xy 177.165 88.265) (xy 182.245 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b86041d-2566-4996-b4b8-044476dfa791")
+	)
+	(wire
+		(pts
+			(xy 173.355 90.805) (xy 178.435 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8357289d-3c87-4d1f-9a97-bd5650e7189a")
+	)
+	(wire
+		(pts
+			(xy 112.395 95.885) (xy 113.665 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83949512-5d7e-4ca6-b14d-d365e23452c3")
+	)
+	(wire
+		(pts
+			(xy 145.415 100.965) (xy 145.415 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8399e62f-2eac-432f-833f-4e0d97cb2002")
+	)
+	(wire
+		(pts
+			(xy 113.665 97.155) (xy 116.205 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87eb6987-e203-4127-a47a-00d4c5c958af")
+	)
+	(wire
+		(pts
+			(xy 117.475 90.805) (xy 117.475 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2af042-af14-4fa6-9553-75ce02cbfa84")
+	)
+	(wire
+		(pts
+			(xy 206.375 100.965) (xy 206.375 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4b6f27-0068-4ca8-acc3-285f09a41883")
+	)
+	(wire
+		(pts
+			(xy 163.195 107.315) (xy 163.195 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f12871e-e849-4cc4-a898-5021283574f9")
+	)
+	(wire
+		(pts
+			(xy 173.355 95.885) (xy 174.625 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ff25d1-33b4-499b-86af-4a7256d26fb3")
+	)
+	(wire
+		(pts
+			(xy 221.615 103.505) (xy 221.615 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e2ea6e-9691-41e0-bb75-ec9bbd30da08")
+	)
+	(wire
+		(pts
+			(xy 99.695 93.345) (xy 99.695 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99cdf883-a118-4247-a79e-2d6870011813")
+	)
+	(wire
+		(pts
+			(xy 142.875 95.885) (xy 144.145 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a10872e8-bd4c-439e-9af3-e0877c453ad8")
+	)
+	(wire
+		(pts
+			(xy 112.395 100.965) (xy 114.935 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d76fe1-0ad0-4372-8f82-f866d58db679")
+	)
+	(wire
+		(pts
+			(xy 173.355 100.965) (xy 175.895 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a63c7761-bd08-4327-ac82-499496d14c42")
+	)
+	(wire
+		(pts
+			(xy 203.835 95.885) (xy 205.105 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a706a9aa-0df0-4e51-a187-997ff7ea1989")
+	)
+	(wire
+		(pts
+			(xy 147.955 90.805) (xy 147.955 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf9b3f1-6f6d-4c9e-8cc4-530ef806bc63")
+	)
+	(wire
+		(pts
+			(xy 205.105 95.885) (xy 205.105 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae64d5ba-297b-46b2-89b9-90175abf837a")
+	)
+	(wire
+		(pts
+			(xy 219.075 100.965) (xy 219.075 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f9f789-ff39-47f3-9eea-a6175a488a6a")
+	)
+	(wire
+		(pts
+			(xy 163.195 93.345) (xy 160.655 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b18b052a-44a5-4178-a94c-4cc29ab6dc1e")
+	)
+	(wire
+		(pts
+			(xy 144.145 106.045) (xy 144.145 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb25aef-4ab5-48dc-b8bc-d60a65b75c7c")
+	)
+	(wire
+		(pts
+			(xy 142.875 100.965) (xy 145.415 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef9529d-9b82-4611-9c68-6d2121ae8b81")
+	)
+	(wire
+		(pts
+			(xy 191.135 93.345) (xy 191.135 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf559618-fdae-4f12-8904-4e58d8a6bc95")
+	)
+	(wire
+		(pts
+			(xy 132.715 93.345) (xy 130.175 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c39b5246-8133-4155-b847-f116220a957e")
+	)
+	(wire
+		(pts
+			(xy 85.725 106.045) (xy 86.995 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d8f8cc-6f92-493d-9ba4-1918ef5ee454")
+	)
+	(wire
+		(pts
+			(xy 193.675 107.315) (xy 193.675 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7726330-ef65-4922-9d3f-930227d8d1ae")
+	)
+	(wire
+		(pts
+			(xy 113.665 106.045) (xy 113.665 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe5fbb6-eec1-4a4b-a4da-4274c54c97fc")
+	)
+	(wire
+		(pts
+			(xy 205.105 106.045) (xy 205.105 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d129a65f-811d-4a96-b61c-95c93c43a234")
+	)
+	(wire
+		(pts
+			(xy 203.835 90.805) (xy 208.915 90.805)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fbaa20-3877-4adc-bffc-0ce6345d2134")
+	)
+	(wire
+		(pts
+			(xy 85.725 100.965) (xy 85.725 106.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e653cc-b656-437d-930f-f08214e4dbad")
+	)
+	(wire
+		(pts
+			(xy 114.935 100.965) (xy 114.935 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5c4f0a-e0ed-48cc-9bf5-f2472371d450")
+	)
+	(wire
+		(pts
+			(xy 86.995 106.045) (xy 86.995 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49c9b36-1ed4-4e42-9d7d-227c6b28e2e1")
+	)
+	(wire
+		(pts
+			(xy 174.625 95.885) (xy 174.625 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e658c97a-03b8-4cd3-9b50-f992f8bcd519")
+	)
+	(wire
+		(pts
+			(xy 102.235 93.345) (xy 99.695 93.345)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e957cb57-b88b-48bc-a45e-4edfb95a0a94")
+	)
+	(wire
+		(pts
+			(xy 226.695 103.505) (xy 226.695 100.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec836462-0e50-481e-894b-f6b2344cc535")
+	)
+	(wire
+		(pts
+			(xy 178.435 90.805) (xy 178.435 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed24b3ea-eee5-4902-8ca8-f27dd426ac7f")
+	)
+	(wire
+		(pts
+			(xy 224.155 107.315) (xy 224.155 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee110695-e8fa-4d4c-a7d6-6b4036025b4f")
+	)
+	(wire
+		(pts
+			(xy 151.765 88.265) (xy 151.765 85.725)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f520ac83-943c-490b-bc75-007f285aca5d")
+	)
+	(wire
+		(pts
+			(xy 132.715 107.315) (xy 132.715 103.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa4b00c-47ea-4e29-a6d6-47cf5183e7cf")
+	)
+	(wire
+		(pts
+			(xy 116.205 97.155) (xy 116.205 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe865a11-4ea8-41fa-9a67-5d9a5bbb15d9")
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
+		(at 107.315 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11655e5e-1e7c-476b-987c-a3b30c0b4e66")
+		(property "Reference" "SW1"
+			(at 113.284 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 113.284 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.315 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.315 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, dual pole double throw"
+			(at 107.315 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f052b8a5-a73f-4968-aa7e-fca5d8dbf26e")
+		)
+		(pin "5"
+			(uuid "5042b235-e66a-488e-8078-a6048814f713")
+		)
+		(pin "1"
+			(uuid "2f86f9cf-6cf5-4400-8ee0-6219b7b8ad79")
+		)
+		(pin "3"
+			(uuid "d4d00cca-e760-4824-8b27-a2d409e10dec")
+		)
+		(pin "4"
+			(uuid "3c42cc87-513b-46e0-bd47-423f893fcaff")
+		)
+		(pin "6"
+			(uuid "17f75f62-c4c9-417d-bc60-aa44031c8442")
+		)
+		(instances
+			(project ""
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 178.435 85.725 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17fccd57-e21b-45e1-9b87-85e650456ed6")
+		(property "Reference" "R3"
+			(at 180.34 82.5501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 180.34 80.0101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 178.435 87.503 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 178.435 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 178.435 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d87ddf4-d6c4-4a96-8dde-b4129d50b982")
+		)
+		(pin "2"
+			(uuid "cdf16f44-7c6d-4a94-be7f-99a63b537fa2")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:RJ45")
+		(at 216.535 117.475 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b96abb1-bd32-47c7-a96d-d23b109e857f")
+		(property "Reference" "J5"
+			(at 215.392 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJ45"
+			(at 215.392 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(at 216.535 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33855dc1-57af-4cd8-830b-bf3085ad8bf1")
+		)
+		(pin "1"
+			(uuid "2e6879d4-c932-4776-a418-8ff3c8c78bbc")
+		)
+		(pin "6"
+			(uuid "ad358931-2cf5-49ba-b79b-2e84c23ad8e0")
+		)
+		(pin "7"
+			(uuid "e2c65e9a-18d8-49dd-8941-56902852b768")
+		)
+		(pin "8"
+			(uuid "6392a23e-4b9f-4772-ad2d-44bf8c35c811")
+		)
+		(pin "3"
+			(uuid "af1566b5-37ba-4346-a775-2c39f6e158df")
+		)
+		(pin "4"
+			(uuid "7b7e9095-d24f-4ac8-b73f-bc2492d774df")
+		)
+		(pin "5"
+			(uuid "84ae5bdd-391c-47c6-bb49-68fe770386eb")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:RJ45")
+		(at 186.055 117.475 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f3d7deb-2774-4eb3-aa14-9049f3f90cb3")
+		(property "Reference" "J4"
+			(at 185.674 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJ45"
+			(at 185.674 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(at 186.055 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "55a56ce7-0215-4fd3-84c9-da49b7fb8a19")
+		)
+		(pin "1"
+			(uuid "22a6c5aa-347a-4ce2-a488-b41f428feb1e")
+		)
+		(pin "6"
+			(uuid "d51572c9-9b9e-4fe7-a99c-a23a158a65d4")
+		)
+		(pin "7"
+			(uuid "e6ef5d16-6cfd-4d32-aac8-48c104c329a3")
+		)
+		(pin "8"
+			(uuid "0275d78e-e811-4abf-806d-7793da81d136")
+		)
+		(pin "3"
+			(uuid "1134e63c-5030-4160-9213-eff3eb4296f6")
+		)
+		(pin "4"
+			(uuid "5d87f884-3207-4c4a-80d6-6d063c549c26")
+		)
+		(pin "5"
+			(uuid "88c5e7c7-582a-499b-babe-a65cd0b10b61")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 117.475 85.725 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4aa006ee-215f-42a3-96de-920d2e0634d8")
+		(property "Reference" "R1"
+			(at 119.38 82.5501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 119.38 80.0101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 117.475 87.503 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 117.475 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 117.475 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbde29e2-82d5-417e-86e4-fe2d2937b624")
+		)
+		(pin "2"
+			(uuid "4b3f154f-c772-4580-88ad-0df0001e0f82")
+		)
+		(instances
+			(project ""
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:RJ45")
+		(at 125.095 117.475 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5acf65da-c458-48d1-9f5a-79bdab09a178")
+		(property "Reference" "J2"
+			(at 124.46 130.556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJ45"
+			(at 124.46 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(at 125.095 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5f378cdc-7f51-4456-ab65-b3446e557b01")
+		)
+		(pin "1"
+			(uuid "afd4423d-2f39-4fb7-b97e-5713d99c3187")
+		)
+		(pin "6"
+			(uuid "52da0bd6-f101-468a-91d8-966dd9783f91")
+		)
+		(pin "7"
+			(uuid "04cb29dd-561b-4ab3-8351-a441fce346ce")
+		)
+		(pin "8"
+			(uuid "fdc74cf5-e1b8-49fc-bb5e-c18b35c664be")
+		)
+		(pin "3"
+			(uuid "cad37900-8a8e-414c-84b6-0f8b0d7b9860")
+		)
+		(pin "4"
+			(uuid "cc8ffe93-6174-4ab1-b1a4-86fd8d504962")
+		)
+		(pin "5"
+			(uuid "f3bfb94e-488d-451b-aeff-9e5ed79583c1")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.915 85.725 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "621f92db-ba8b-44a3-940b-4c3de76f5969")
+		(property "Reference" "R5"
+			(at 210.82 82.5501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 210.82 80.0101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.915 87.503 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.915 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.915 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c54d3a9f-0b72-4e36-a797-fca548d9fa17")
+		)
+		(pin "2"
+			(uuid "b981382c-b87a-4e3d-b164-0c851dbd426a")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
+		(at 137.795 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70851bdb-ebe8-46cb-8f2e-09f8a10c2ac1")
+		(property "Reference" "SW3"
+			(at 143.256 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 143.256 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.795 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.795 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, dual pole double throw"
+			(at 137.795 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ea6b26e-b392-4194-b897-0cb6b8d90f78")
+		)
+		(pin "5"
+			(uuid "f5384b55-5aa0-4529-8f58-bcdcd7b56db7")
+		)
+		(pin "1"
+			(uuid "fd4d9474-d419-408b-8a6d-2f24a832ca7b")
+		)
+		(pin "3"
+			(uuid "7d0c2125-8171-44d9-8b0a-0c83a1054ea2")
+		)
+		(pin "4"
+			(uuid "f0cb8d76-9cf9-4755-b511-b3dc4b1a7654")
+		)
+		(pin "6"
+			(uuid "73411dd4-bed8-4d8c-a618-2162354097bd")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 222.885 100.965 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84945e4d-4005-45be-b600-af29f7ef37ae")
+		(property "Reference" "R4"
+			(at 224.79 97.7901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 224.79 95.2501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.885 102.743 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.885 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 222.885 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "751b0333-a611-42c0-9d57-aa042eed556e")
+		)
+		(pin "2"
+			(uuid "0714a84a-7ee1-437a-9b7d-2ee21205dcb7")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.955 85.725 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b6d5065-b723-4b7d-a64b-d8c398d346b7")
+		(property "Reference" "R2"
+			(at 149.86 82.5501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 149.86 80.0101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.955 87.503 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.955 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.955 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d2dc61a-b361-475e-afdd-6c698ce09407")
+		)
+		(pin "2"
+			(uuid "f9ff5a18-dd3c-4526-8611-92f794b45de8")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
+		(at 168.275 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab444658-fa09-4540-bc9a-2c6f999ec2b2")
+		(property "Reference" "SW2"
+			(at 173.482 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 173.482 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.275 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.275 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, dual pole double throw"
+			(at 168.275 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80d3fbab-8b09-438c-8c23-d939b86193b1")
+		)
+		(pin "5"
+			(uuid "c53eb449-ae10-48cc-8fb2-17ede02faeb1")
+		)
+		(pin "1"
+			(uuid "16b9055b-ef12-4706-903f-a3ae4e9d55af")
+		)
+		(pin "3"
+			(uuid "062dcfb1-86f4-477b-84a4-78a9131e5b75")
+		)
+		(pin "4"
+			(uuid "34ab5e22-8973-4021-86c1-a5b61d319d74")
+		)
+		(pin "6"
+			(uuid "f5e59817-3f94-4c32-b156-84fdda289f44")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_DPDT")
+		(at 198.755 98.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b59b1b08-0698-4b89-97ff-23869f9bb627")
+		(property "Reference" "SW4"
+			(at 202.692 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push_DPDT"
+			(at 202.692 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.755 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.755 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Momentary Switch, dual pole double throw"
+			(at 198.755 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c659122c-4731-41a4-83ac-285c6c73b1ee")
+		)
+		(pin "5"
+			(uuid "8a9b2b97-cb4f-4a7a-845f-8f0585906c35")
+		)
+		(pin "1"
+			(uuid "2c6c5e1f-4561-40ae-9405-00426c52ad8b")
+		)
+		(pin "3"
+			(uuid "e3398870-4c7b-40b5-bb37-2de5aae27fce")
+		)
+		(pin "4"
+			(uuid "9e932e93-5cad-422a-9b9c-32e9b1fbb9b6")
+		)
+		(pin "6"
+			(uuid "c0fad96c-f504-423f-8914-9273b878b361")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "New_Library:Canbus")
+		(at 80.645 98.425 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5d3008a-88da-4cb8-85c1-4a3e5ed1409a")
+		(property "Reference" "Can1"
+			(at 86.614 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 88.9 92.7101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.645 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.645 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.645 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2acfa2c1-523c-46e4-928c-0dcba188397a")
+		)
+		(pin ""
+			(uuid "217c0060-86fc-4aa5-a2fe-575a33d7b3af")
+		)
+		(instances
+			(project ""
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "Can1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:RJ45")
+		(at 155.575 117.475 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7915900-56a2-4cdb-9ada-8a717e385791")
+		(property "Reference" "J3"
+			(at 153.67 130.048 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJ45"
+			(at 153.67 127.508 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(at 155.575 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "136e1227-54c6-435e-b686-c0be88330510")
+		)
+		(pin "1"
+			(uuid "8f59251d-c067-4cb8-91a7-a9183c4cd9e2")
+		)
+		(pin "6"
+			(uuid "8ddb503c-8429-4500-bfdc-bde4cf1855c5")
+		)
+		(pin "7"
+			(uuid "70d4b554-bc84-40b6-b249-0b46e6657d6b")
+		)
+		(pin "8"
+			(uuid "bfdbbec8-3856-451b-ad4a-5361ab834a7a")
+		)
+		(pin "3"
+			(uuid "729c9738-402b-4172-9f71-268cb7ded56c")
+		)
+		(pin "4"
+			(uuid "0be0b855-6320-483a-b714-a23a57f7c764")
+		)
+		(pin "5"
+			(uuid "e4710fb7-0754-4857-a5ae-47cc1df5d9b6")
+		)
+		(instances
+			(project "rio-hub"
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:RJ45")
+		(at 94.615 117.475 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed70bab6-de14-43a7-a254-4fbd1182748d")
+		(property "Reference" "J1"
+			(at 93.98 131.826 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RJ45"
+			(at 93.98 129.286 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 117.475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
+			(at 94.615 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63c6ec74-f65d-4bd2-9579-16b0ea9018fb")
+		)
+		(pin "1"
+			(uuid "41563d67-40ba-473a-a7e8-3afe61962a0f")
+		)
+		(pin "6"
+			(uuid "68a05227-1766-46dd-9e04-44424c95dc10")
+		)
+		(pin "7"
+			(uuid "5ecb4cd1-a5b0-4893-bf9f-8bb2473df836")
+		)
+		(pin "8"
+			(uuid "b534a90b-0ca8-47b3-8340-41864e6f4bf2")
+		)
+		(pin "3"
+			(uuid "4a8d25f7-5842-4c51-a7df-803ac62d67b4")
+		)
+		(pin "4"
+			(uuid "8831e1b2-9104-4042-814f-b64e69407be6")
+		)
+		(pin "5"
+			(uuid "5a7b80ff-fc4c-4219-b371-3ed8335bcd51")
+		)
+		(instances
+			(project ""
+				(path "/888ea236-0a1b-4051-b4d2-08d520fb1e2a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
